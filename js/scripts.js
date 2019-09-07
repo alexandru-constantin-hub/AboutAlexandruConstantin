@@ -1,14 +1,5 @@
 // /*global $:false */
 // /*global moment:true */
-twttr.widgets.createTimeline(
-{
-  sourceType: "profile",
-  screenName: "TwitterDev"
-},
-document.getElementById("containerTwitter")
-);
-
-
 (function($) {
 
     "use strict";
